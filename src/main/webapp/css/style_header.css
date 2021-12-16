@@ -1,0 +1,10 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+.navbar-brand{
+	font-family: 70px;
+	font-family: 'Smooch', cursive;
+}

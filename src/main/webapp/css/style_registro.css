@@ -1,0 +1,82 @@
+.registro .form-register {
+	width: 60%;
+	height: auto;
+	background: #24303c;
+	margin: 100px auto;
+	padding: 20px 30px;
+	border-radius: 4px;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	box-shadow: 7px 13px 37px #000;
+	border-top: 4px solid #ff4444;
+}
+
+.registro .form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.registro .controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #ff4444;
+	font-size: 18px;
+	color: white;
+}
+
+.registro .form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.registro .form-register a {
+	color: white;
+	text-decoration: none;
+}
+
+.registro .form-register a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.registro .form-register .botons {
+	width: 100%;
+	border: solid 2px #ff4444;
+	padding: 12px;
+	color: #ff4444;
+	margin: 16px 0;
+	font-size: 16px;
+}
+.registro .form-register .botons:hover{
+	color: #ffffff;
+
+}
+.registro input[type=text]:focus,
+.registro input[type=email]:focus,
+.registro input[type=password]:focus
+{
+	color: #fff;
+  outline: 2px solid #ff4444;  
+}
+
+.registro input[type=text],
+.registro input[type=email],
+.registro input[type=password]
+{
+	color: #fff;
+}
+@media (max-width: 780px) {
+	.registro .form-register {
+		width: 75%;
+	}
+}
+@media (max-width: 450px) {
+	.registro .form-register {
+		width: 90%;
+	}
+}

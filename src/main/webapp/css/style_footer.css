@@ -1,0 +1,124 @@
+/*FOOTER*/
+/* BOTONES */
+
+footer .main {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*margin-right: 0;*/
+}
+
+footer li {
+    list-style: none;
+    padding: 25px;
+}
+footer a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "Fjalla One", sans-serif;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    transform: rotate(-30deg) skew(20deg);
+    box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.6);
+    transition-duration: 350ms;
+}
+
+footer a:before,
+footer a:after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    transition-duration: 350ms;
+}
+
+footer a:after {
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    transform: rotate(0deg) skewX(-45deg);
+}
+
+footer a:before {
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+footer a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(10px, -5px);
+    box-shadow: -25px 25px 25px rgba(0, 0, 0, 0, 6);
+    color: black;
+}
+
+footer .fab {
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* Facebook */
+footer .boton-fb:hover:nth-child(1) a {
+    background: #3b5998;
+}
+footer .boton-fb:hover:nth-child(1) a:after {
+    background: #435f99;
+}
+footer .boton-fb:hover:nth-child(1) a:before {
+    background: #294682;
+}
+
+/* Twitter */
+footer .boton-tw:hover:nth-child(2) a {
+    background: #00acee;
+}
+footer .boton-tw:hover:nth-child(2) a:after {
+    background: #3ab8e8;
+}
+footer .boton-tw:hover:nth-child(2) a:before {
+    background: #0094cd;
+}
+
+/* Instagram */
+footer .boton-ig:hover:nth-child(3) a {
+    background: #c13584;
+}
+footer .boton-ig:hover:nth-child(3) a:after {
+    background: #c45493;
+}
+footer .boton-ig:hover:nth-child(3) a:before {
+    background: #9e2068;
+}
+
+/* WhatsApp */
+footer .boton-wsp:hover:nth-child(4) a {
+    background: #25d366;
+}
+footer .boton-wsp:hover:nth-child(4) a:after {
+    background: #33e575;
+}
+footer .boton-wsp:hover:nth-child(4) a:before {
+    background: #19af51;
+}
+
+footer .footer-copyright {
+    margin-top: 20px;
+    color: rgba(255, 255,255, 0.5);
+
+}
+
+@media (max-width: 450px) {
+    footer .main {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

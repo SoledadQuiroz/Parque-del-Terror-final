@@ -1,0 +1,83 @@
+.atracciones .bienvenido {
+	top: 0;
+	margin-top: 60px;
+	margin-left: 60px;
+	text-align: left;
+	color: red;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Smooch', cursive;
+}
+
+.atracciones .bienvenido h1 {
+	font-size: 45px;
+}
+.atracciones .nueva_atraccion{
+	text-align:center;
+}
+
+.atracciones .nueva_atraccion {
+	text-align: center;
+}
+
+.atracciones .carousel {
+	width: 800px;
+	margin: auto;
+	image-rendering: 10px;
+}
+.atracciones .titulo_atracciones{
+	color:white; 
+	text-align:center;
+}
+
+.atracciones .titulo_atracciones {
+	color: white;
+	text-align: center;
+}
+
+.atracciones .table {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.atracciones .modal-content1{
+	background-color:rgba(0,0,0,0.7);
+	color:white;
+}
+
+.atracciones .column-uno {
+	width: 30%;
+}
+
+.atracciones .column-cinco {
+	width: 30%;
+}
+
+.atracciones h2 {
+	text-align: center;
+	margin: 50px;
+	color: lightslategray;
+}
+
+@media ( max-width : 450px) {
+	.atracciones .carousel {
+		max-width: 90%;
+	}
+	.atracciones .table {
+		width: 400px !important;
+	}
+	.atracciones img {
+		width: 100%;
+	}
+}
+
+@media ( max-width : 780px) {
+	.atracciones .carousel {
+		max-width: 90%;
+	}
+	.atracciones .table {
+		width: 90%;
+	}
+	.atracciones img {
+		width: 100%;
+	}
+}

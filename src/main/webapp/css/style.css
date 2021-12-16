@@ -1,0 +1,10 @@
+/*Font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Smooch&display=swap');
+@import url('./style_general.css');
+@import url('./style_header.css');
+@import url('./style_footer.css');
+@import url('./style_index.css');
+@import url('./style_atracciones.css');
+@import url('./style_login.css');
+@import url('./style_registro.css');
+@import url('./style_promociones.css');

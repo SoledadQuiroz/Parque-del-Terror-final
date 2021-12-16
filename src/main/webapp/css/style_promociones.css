@@ -1,0 +1,41 @@
+.promociones .nueva_promocion{
+	text-align:center;
+}
+
+.promociones .titulo_promociones{
+	margin-top: 50px;
+	color:white; 
+	text-align:center;
+}
+
+.promociones .table {
+	width: 90%;
+	margin: 50px auto;
+}
+.promociones .modal-content{
+	background-color:rgba(0,0,0,0.7);
+	color:white;
+}
+.promociones .column-uno {
+	width: 30%;
+}
+.promociones .column-cinco {
+	width: 30%;
+}
+.promociones h2 {
+	text-align: center;
+	margin: 50px;
+	color: lightslategray;
+}
+
+@media ( max-width : 450px) {
+	.promociones .table {
+		width: 400px !important;
+	}
+}
+
+@media ( max-width : 780px) {
+	.promociones .table {
+		width: 90%;
+	}
+}
